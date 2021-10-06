@@ -32,3 +32,8 @@ The first one is the bayesian naive classification
 The second one is a logistic regression
 
 The third and last one is a machine learning solution based on FastText and embedding words
+
+### Architecture
+
+This project modules are in the src folder
+The data is a single, thus, is left in the root, with the notebook aswell, given the small amount of files
