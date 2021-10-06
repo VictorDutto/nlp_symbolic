@@ -83,7 +83,7 @@ def generate_x_and_y(dataset: arrow_dataset.Dataset) -> tuple:
         x_train_preprocessed.append(np.array(elt.split(" ")))
     
     y_train = dataset['label']
-    return (x_train, y_train)
+    return (x_train_preprocessed, y_train)
 
 def import_lexicon(path: str) -> pd.core.frame.DataFrame:
     """
