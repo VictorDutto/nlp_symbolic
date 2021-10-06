@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# fastText
+fastText-0.9.2
+imdb_training.txt
+imdb_testing.txt
+oups.ipynb
+v0.9.2.zip
