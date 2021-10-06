@@ -14,6 +14,9 @@ To start using this project use the following commands:
 
 ## Install the requirements
 
+The project has been tested with Python 3.8 and 3.9
+
+Thus, it is recommended to run this project with python 3.8 or more
 ```bash
 pip install -r requirements.txt
 ```
