@@ -5,11 +5,6 @@ get_ipython().system('wget https://github.com/facebookresearch/fastText/archive/
 get_ipython().system('unzip v0.9.2.zip')
 get_ipython().system('cd fastText-0.9.2 && make && pip install .')
 get_ipython().system('cd fastText-0.9.2 && python3 download_model.py en')
-get_ipython().system('pip install contractions')
-get_ipython().system('pip install beautifulsoup4')
-get_ipython().system('pip install nltk')
-get_ipython().system('pip install datasets')
-
 
 import fasttext
 import contractions
