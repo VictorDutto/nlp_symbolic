@@ -1,5 +1,5 @@
 absl-py==0.15.0
-aiohttp==3.7.4.post0
+aiohttp>=3.7.4.post0
 anyascii==0.3.0
 argon2-cffi==21.1.0
 astunparse==1.6.3
@@ -114,7 +114,7 @@ srsly==2.4.1
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.6.0
+tensorflow==2.6.1
 tensorflow-estimator==2.6.0
 termcolor==1.1.0
 terminado==0.12.1
